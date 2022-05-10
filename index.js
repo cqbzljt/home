@@ -22,7 +22,7 @@ function loadlive2d() {
     if (document.body.clientWidth > 600) {
         document.onreadystatechange = function () {
             if (document.readyState == "complete") {
-                loadScript('https://cdn.jsdelivr.net/combine/npm/chenyfan-oss@2.0.3/pixi.min.js,npm/saiodgm-files@latest/live2dcubismcore.min.js,npm/chenyfan-oss@2.0.3/live2dcubismframework.min.js,npm/chenyfan-oss@2.0.3/live2dcubismpixi.min.js,npm/chenyfan-oss@2.0.3/load.js',function(){
+                loadScript('/live2d.js',function(){
                     loadModel();
 })
             }
