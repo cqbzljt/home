@@ -1,6 +1,6 @@
 {
   "name": "saiodgm-home",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "个人主页",
   "main": "index.js",
   "scripts": {
