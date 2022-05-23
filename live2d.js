@@ -46,7 +46,7 @@ var LIVE2DCUBISMPIXI,__extends=this&&this.__extends||function(){var e=Object.set
 var LIVE2DCUBISMCORE = Live2DCubismCore
 //如果资源在CDN，一定要写http://或者https://否则会以本域名请求且为相对路径
 //模型的model3.json文件路径
-var baseModelPath = 'https://npm.elemecdn.com/saiodgm-home@0.0.6'
+var baseModelPath = 'https://npm.elemecdn.com/saiodgm-home@0.0.7'
 var modelNames = ["lafei_4"];
 var modelPath;
 //Application全局变量
