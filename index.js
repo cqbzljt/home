@@ -22,7 +22,7 @@ function loadlive2d() {
     if (document.body.clientWidth > 600) {
         document.onreadystatechange = function () {
             if (document.readyState == "complete") {
-                loadScript('https://npm.elemecdn.com/saiodgm-home@0.0.4/live2d.js',function(){
+                loadScript('https://npm.elemecdn.com/saiodgm-home@0.0.5/live2d.js',function(){
                     loadModel();
 })
             }
